@@ -39,20 +39,7 @@ This repository provides machine-consumable HL7 FHIR R4 artifacts, including:
 Detailed artifact catalog:
 
 [View FHIR Artifact Catalog](artifacts.md)
-## FHIR Artifacts
 
-This project includes:
-
-- ImplementationGuide
-- StructureDefinition profiles
-- Extension definitions
-- ConceptMap terminology mappings
-- StructureMap transformation rules
-- ValueSets
-- CodeSystems
-- Validation documentation
-
----
 
 ## Repository
 
