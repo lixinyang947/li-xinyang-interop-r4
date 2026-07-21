@@ -20,7 +20,25 @@ The framework addresses cross-institutional clinical data exchange through:
 - Federated query workflow
 
 ---
+---
 
+## FHIR Artifacts
+
+This repository provides machine-consumable HL7 FHIR R4 artifacts, including:
+
+- ImplementationGuide
+- StructureDefinition Profiles
+- Extension Definitions
+- ConceptMaps
+- StructureMaps
+- CodeSystems
+- ValueSets
+- Validation Documentation
+
+
+Detailed artifact catalog:
+
+[View FHIR Artifact Catalog](artifacts.md)
 ## FHIR Artifacts
 
 This project includes:
