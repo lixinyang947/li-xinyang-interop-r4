@@ -1,0 +1,19 @@
+{
+  "name": "li-xinyang-interop-r4-ig-source",
+  "version": "0.1.0",
+  "private": true,
+  "description": "Draft FHIR R4 IG source package for the Li Xinyang interoperability and data-quality framework.",
+  "scripts": {
+    "build:fsh": "sushi build . --snapshot",
+    "assemble": "python scripts/assemble_package.py",
+    "check": "python scripts/check_package.py",
+    "validate:offline": "node scripts/validate_records.mjs",
+    "build": "npm run build:fsh && npm run assemble && npm run check && npm run validate:offline"
+  },
+  "devDependencies": {
+    "@records-fhir/bundled-profiles": "0.1.0",
+    "@records-fhir/validation-types": "0.1.5",
+    "@records-fhir/validator": "0.4.2",
+    "fsh-sushi": "3.20.0"
+  }
+}

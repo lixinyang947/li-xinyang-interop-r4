@@ -1,0 +1,48 @@
+id: li-xinyang-interop-r4
+canonical: https://example.org/fhir/li-xinyang-interop-r4
+name: LiXinyangFHIRInteropR4
+title: Li Xinyang FHIR-Native Interoperability and Data-Quality Framework (R4)
+description: Draft, machine-consumable FHIR R4 implementation guide translating the independently developed interoperability and data-quality methodology into profiles, terminology artifacts, structural maps, provenance, validation, and example exchange bundles.
+status: draft
+experimental: true
+license: Apache-2.0
+copyrightYear: 2026+
+releaseLabel: Draft technical specification
+date: 2026-07-21
+version: 0.1.0
+fhirVersion: 4.0.1
+publisher:
+  name: Xinyang Li
+  url: https://example.org
+contact:
+  - name: Xinyang Li
+    telecom:
+      - system: url
+        value: https://example.org
+        use: work
+pages:
+  index.md:
+    title: Home
+  methodology.md:
+    title: Methodology Traceability
+  profiles.md:
+    title: Canonical Profiles
+  mapping.md:
+    title: Mapping Pipeline
+  validation.md:
+    title: Validation and Data Quality
+  provenance.md:
+    title: Provenance and Lineage
+  limitations.md:
+    title: Limitations and Publication Readiness
+  artifacts.md:
+    title: Artifact Summary
+menu:
+  Home: index.html
+  Methodology: methodology.html
+  Profiles: profiles.html
+  Mapping: mapping.html
+  Validation: validation.html
+  Provenance: provenance.html
+  Limitations: limitations.html
+  Artifacts: artifacts.html

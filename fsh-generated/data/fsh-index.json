@@ -1,0 +1,690 @@
+[
+  {
+    "outputFile": "CodeSystem-hitc-mapping-strategy.json",
+    "fshName": "HITCMappingStrategyCS",
+    "fshType": "CodeSystem",
+    "fshFile": "02_terminology.fsh",
+    "startLine": 20,
+    "endLine": 30
+  },
+  {
+    "outputFile": "CodeSystem-hitc-observation-category.json",
+    "fshName": "HITCObservationCategoryCS",
+    "fshType": "CodeSystem",
+    "fshFile": "02_terminology.fsh",
+    "startLine": 88,
+    "endLine": 94
+  },
+  {
+    "outputFile": "CodeSystem-hitc-quality-metric.json",
+    "fshName": "HITCQualityMetricCS",
+    "fshType": "CodeSystem",
+    "fshFile": "02_terminology.fsh",
+    "startLine": 1,
+    "endLine": 12
+  },
+  {
+    "outputFile": "CodeSystem-hitc-source-format.json",
+    "fshName": "HITCSourceFormatCS",
+    "fshType": "CodeSystem",
+    "fshFile": "02_terminology.fsh",
+    "startLine": 53,
+    "endLine": 62
+  },
+  {
+    "outputFile": "CodeSystem-hitc-supported-terminology.json",
+    "fshName": "HITCSupportedTerminologyCS",
+    "fshType": "CodeSystem",
+    "fshFile": "02_terminology.fsh",
+    "startLine": 101,
+    "endLine": 118
+  },
+  {
+    "outputFile": "CodeSystem-hitc-transformation-activity.json",
+    "fshName": "HITCTransformationActivityCS",
+    "fshType": "CodeSystem",
+    "fshFile": "02_terminology.fsh",
+    "startLine": 69,
+    "endLine": 81
+  },
+  {
+    "outputFile": "CodeSystem-hitc-validation-stage.json",
+    "fshName": "HITCValidationStageCS",
+    "fshType": "CodeSystem",
+    "fshFile": "02_terminology.fsh",
+    "startLine": 37,
+    "endLine": 46
+  },
+  {
+    "outputFile": "Condition-ExampleCondition.json",
+    "fshName": "ExampleCondition",
+    "fshType": "Instance",
+    "fshFile": "11_examples.fsh",
+    "startLine": 132,
+    "endLine": 152
+  },
+  {
+    "outputFile": "Device-ExampleSourceEHR.json",
+    "fshName": "ExampleSourceEHR",
+    "fshType": "Instance",
+    "fshFile": "11_examples.fsh",
+    "startLine": 15,
+    "endLine": 27
+  },
+  {
+    "outputFile": "DocumentReference-ExampleSourceDocument.json",
+    "fshName": "ExampleSourceDocument",
+    "fshType": "Instance",
+    "fshFile": "11_examples.fsh",
+    "startLine": 154,
+    "endLine": 175
+  },
+  {
+    "outputFile": "Encounter-ExampleEncounter.json",
+    "fshName": "ExampleEncounter",
+    "fshType": "Instance",
+    "fshFile": "11_examples.fsh",
+    "startLine": 72,
+    "endLine": 91
+  },
+  {
+    "outputFile": "Location-ExampleLocation.json",
+    "fshName": "ExampleLocation",
+    "fshType": "Instance",
+    "fshFile": "11_examples.fsh",
+    "startLine": 60,
+    "endLine": 70
+  },
+  {
+    "outputFile": "Observation-ExampleHbA1cObservation.json",
+    "fshName": "ExampleHbA1cObservation",
+    "fshType": "Instance",
+    "fshFile": "11_examples.fsh",
+    "startLine": 109,
+    "endLine": 130
+  },
+  {
+    "outputFile": "Observation-ExampleQualityCSC.json",
+    "fshName": "ExampleQualityCSC",
+    "fshType": "Instance",
+    "fshFile": "11_examples.fsh",
+    "startLine": 200,
+    "endLine": 221
+  },
+  {
+    "outputFile": "Observation-ExampleQualityFFR.json",
+    "fshName": "ExampleQualityFFR",
+    "fshType": "Instance",
+    "fshFile": "11_examples.fsh",
+    "startLine": 177,
+    "endLine": 198
+  },
+  {
+    "outputFile": "Observation-ExampleQualityMSR.json",
+    "fshName": "ExampleQualityMSR",
+    "fshType": "Instance",
+    "fshFile": "11_examples.fsh",
+    "startLine": 269,
+    "endLine": 290
+  },
+  {
+    "outputFile": "Observation-ExampleQualityRIR.json",
+    "fshName": "ExampleQualityRIR",
+    "fshType": "Instance",
+    "fshFile": "11_examples.fsh",
+    "startLine": 223,
+    "endLine": 244
+  },
+  {
+    "outputFile": "Observation-ExampleQualityTC.json",
+    "fshName": "ExampleQualityTC",
+    "fshType": "Instance",
+    "fshFile": "11_examples.fsh",
+    "startLine": 246,
+    "endLine": 267
+  },
+  {
+    "outputFile": "Observation-ExampleQualityTCR.json",
+    "fshName": "ExampleQualityTCR",
+    "fshType": "Instance",
+    "fshFile": "11_examples.fsh",
+    "startLine": 292,
+    "endLine": 313
+  },
+  {
+    "outputFile": "Organization-ExampleHospital.json",
+    "fshName": "ExampleHospital",
+    "fshType": "Instance",
+    "fshFile": "11_examples.fsh",
+    "startLine": 1,
+    "endLine": 13
+  },
+  {
+    "outputFile": "Patient-ExamplePatient.json",
+    "fshName": "ExamplePatient",
+    "fshType": "Instance",
+    "fshFile": "11_examples.fsh",
+    "startLine": 45,
+    "endLine": 58
+  },
+  {
+    "outputFile": "Practitioner-ExampleReviewer.json",
+    "fshName": "ExampleReviewer",
+    "fshType": "Instance",
+    "fshFile": "11_examples.fsh",
+    "startLine": 29,
+    "endLine": 43
+  },
+  {
+    "outputFile": "Provenance-ExampleMappingProvenance.json",
+    "fshName": "ExampleMappingProvenance",
+    "fshType": "Instance",
+    "fshFile": "11_examples.fsh",
+    "startLine": 315,
+    "endLine": 352
+  },
+  {
+    "outputFile": "Specimen-ExampleSpecimen.json",
+    "fshName": "ExampleSpecimen",
+    "fshType": "Instance",
+    "fshFile": "11_examples.fsh",
+    "startLine": 93,
+    "endLine": 107
+  },
+  {
+    "outputFile": "StructureDefinition-HITCCCDAEntry.json",
+    "fshName": "HITCCCDAEntry",
+    "fshType": "Logical",
+    "fshFile": "07_logical_models.fsh",
+    "startLine": 122,
+    "endLine": 136
+  },
+  {
+    "outputFile": "StructureDefinition-HITCV2MSH.json",
+    "fshName": "HITCV2MSH",
+    "fshType": "Logical",
+    "fshFile": "07_logical_models.fsh",
+    "startLine": 1,
+    "endLine": 12
+  },
+  {
+    "outputFile": "StructureDefinition-HITCV2OBR.json",
+    "fshName": "HITCV2OBR",
+    "fshType": "Logical",
+    "fshFile": "07_logical_models.fsh",
+    "startLine": 48,
+    "endLine": 60
+  },
+  {
+    "outputFile": "StructureDefinition-HITCV2OBX.json",
+    "fshName": "HITCV2OBX",
+    "fshType": "Logical",
+    "fshFile": "07_logical_models.fsh",
+    "startLine": 62,
+    "endLine": 78
+  },
+  {
+    "outputFile": "StructureDefinition-HITCV2ORC.json",
+    "fshName": "HITCV2ORC",
+    "fshType": "Logical",
+    "fshFile": "07_logical_models.fsh",
+    "startLine": 80,
+    "endLine": 90
+  },
+  {
+    "outputFile": "StructureDefinition-HITCV2PID.json",
+    "fshName": "HITCV2PID",
+    "fshType": "Logical",
+    "fshFile": "07_logical_models.fsh",
+    "startLine": 14,
+    "endLine": 32
+  },
+  {
+    "outputFile": "StructureDefinition-HITCV2PV1.json",
+    "fshName": "HITCV2PV1",
+    "fshType": "Logical",
+    "fshFile": "07_logical_models.fsh",
+    "startLine": 34,
+    "endLine": 46
+  },
+  {
+    "outputFile": "StructureDefinition-HITCV2SCH.json",
+    "fshName": "HITCV2SCH",
+    "fshType": "Logical",
+    "fshFile": "07_logical_models.fsh",
+    "startLine": 92,
+    "endLine": 105
+  },
+  {
+    "outputFile": "StructureDefinition-HITCV2TXA.json",
+    "fshName": "HITCV2TXA",
+    "fshType": "Logical",
+    "fshFile": "07_logical_models.fsh",
+    "startLine": 107,
+    "endLine": 120
+  },
+  {
+    "outputFile": "StructureDefinition-hitc-canonical-allergy-intolerance.json",
+    "fshName": "HITCCanonicalAllergyIntolerance",
+    "fshType": "Profile",
+    "fshFile": "05_profiles_clinical.fsh",
+    "startLine": 93,
+    "endLine": 107
+  },
+  {
+    "outputFile": "StructureDefinition-hitc-canonical-audit-event.json",
+    "fshName": "HITCCanonicalAuditEvent",
+    "fshType": "Profile",
+    "fshFile": "06_profiles_governance.fsh",
+    "startLine": 31,
+    "endLine": 41
+  },
+  {
+    "outputFile": "StructureDefinition-hitc-canonical-care-plan.json",
+    "fshName": "HITCCanonicalCarePlan",
+    "fshType": "Profile",
+    "fshFile": "05_profiles_clinical.fsh",
+    "startLine": 222,
+    "endLine": 237
+  },
+  {
+    "outputFile": "StructureDefinition-hitc-canonical-care-team.json",
+    "fshName": "HITCCanonicalCareTeam",
+    "fshType": "Profile",
+    "fshFile": "05_profiles_clinical.fsh",
+    "startLine": 239,
+    "endLine": 251
+  },
+  {
+    "outputFile": "StructureDefinition-hitc-canonical-composition.json",
+    "fshName": "HITCCanonicalComposition",
+    "fshType": "Profile",
+    "fshFile": "05_profiles_clinical.fsh",
+    "startLine": 285,
+    "endLine": 297
+  },
+  {
+    "outputFile": "StructureDefinition-hitc-canonical-condition.json",
+    "fshName": "HITCCanonicalCondition",
+    "fshType": "Profile",
+    "fshFile": "05_profiles_clinical.fsh",
+    "startLine": 65,
+    "endLine": 79
+  },
+  {
+    "outputFile": "StructureDefinition-hitc-canonical-consent.json",
+    "fshName": "HITCCanonicalConsent",
+    "fshType": "Profile",
+    "fshFile": "06_profiles_governance.fsh",
+    "startLine": 1,
+    "endLine": 15
+  },
+  {
+    "outputFile": "StructureDefinition-hitc-canonical-coverage.json",
+    "fshName": "HITCCanonicalCoverage",
+    "fshType": "Profile",
+    "fshFile": "05_profiles_clinical.fsh",
+    "startLine": 313,
+    "endLine": 324
+  },
+  {
+    "outputFile": "StructureDefinition-hitc-canonical-device-use-statement.json",
+    "fshName": "HITCCanonicalDeviceUseStatement",
+    "fshType": "Profile",
+    "fshFile": "05_profiles_clinical.fsh",
+    "startLine": 210,
+    "endLine": 220
+  },
+  {
+    "outputFile": "StructureDefinition-hitc-canonical-device.json",
+    "fshName": "HITCCanonicalDevice",
+    "fshType": "Profile",
+    "fshFile": "05_profiles_clinical.fsh",
+    "startLine": 198,
+    "endLine": 208
+  },
+  {
+    "outputFile": "StructureDefinition-hitc-canonical-diagnostic-report.json",
+    "fshName": "HITCCanonicalDiagnosticReport",
+    "fshType": "Profile",
+    "fshFile": "05_profiles_clinical.fsh",
+    "startLine": 49,
+    "endLine": 63
+  },
+  {
+    "outputFile": "StructureDefinition-hitc-canonical-document-reference.json",
+    "fshName": "HITCCanonicalDocumentReference",
+    "fshType": "Profile",
+    "fshFile": "05_profiles_clinical.fsh",
+    "startLine": 266,
+    "endLine": 283
+  },
+  {
+    "outputFile": "StructureDefinition-hitc-canonical-encounter.json",
+    "fshName": "HITCCanonicalEncounter",
+    "fshType": "Profile",
+    "fshFile": "04_profiles_admin.fsh",
+    "startLine": 77,
+    "endLine": 91
+  },
+  {
+    "outputFile": "StructureDefinition-hitc-canonical-episode-of-care.json",
+    "fshName": "HITCCanonicalEpisodeOfCare",
+    "fshType": "Profile",
+    "fshFile": "04_profiles_admin.fsh",
+    "startLine": 93,
+    "endLine": 104
+  },
+  {
+    "outputFile": "StructureDefinition-hitc-canonical-goal.json",
+    "fshName": "HITCCanonicalGoal",
+    "fshType": "Profile",
+    "fshFile": "05_profiles_clinical.fsh",
+    "startLine": 253,
+    "endLine": 264
+  },
+  {
+    "outputFile": "StructureDefinition-hitc-canonical-immunization.json",
+    "fshName": "HITCCanonicalImmunization",
+    "fshType": "Profile",
+    "fshFile": "05_profiles_clinical.fsh",
+    "startLine": 109,
+    "endLine": 119
+  },
+  {
+    "outputFile": "StructureDefinition-hitc-canonical-location.json",
+    "fshName": "HITCCanonicalLocation",
+    "fshType": "Profile",
+    "fshFile": "04_profiles_admin.fsh",
+    "startLine": 65,
+    "endLine": 75
+  },
+  {
+    "outputFile": "StructureDefinition-hitc-canonical-medication-administration.json",
+    "fshName": "HITCCanonicalMedicationAdministration",
+    "fshType": "Profile",
+    "fshFile": "05_profiles_clinical.fsh",
+    "startLine": 158,
+    "endLine": 169
+  },
+  {
+    "outputFile": "StructureDefinition-hitc-canonical-medication-request.json",
+    "fshName": "HITCCanonicalMedicationRequest",
+    "fshType": "Profile",
+    "fshFile": "05_profiles_clinical.fsh",
+    "startLine": 132,
+    "endLine": 143
+  },
+  {
+    "outputFile": "StructureDefinition-hitc-canonical-medication-statement.json",
+    "fshName": "HITCCanonicalMedicationStatement",
+    "fshType": "Profile",
+    "fshFile": "05_profiles_clinical.fsh",
+    "startLine": 145,
+    "endLine": 156
+  },
+  {
+    "outputFile": "StructureDefinition-hitc-canonical-medication.json",
+    "fshName": "HITCCanonicalMedication",
+    "fshType": "Profile",
+    "fshFile": "05_profiles_clinical.fsh",
+    "startLine": 121,
+    "endLine": 130
+  },
+  {
+    "outputFile": "StructureDefinition-hitc-canonical-observation.json",
+    "fshName": "HITCCanonicalObservation",
+    "fshType": "Profile",
+    "fshFile": "05_profiles_clinical.fsh",
+    "startLine": 1,
+    "endLine": 13
+  },
+  {
+    "outputFile": "StructureDefinition-hitc-canonical-organization.json",
+    "fshName": "HITCCanonicalOrganization",
+    "fshType": "Profile",
+    "fshFile": "04_profiles_admin.fsh",
+    "startLine": 54,
+    "endLine": 63
+  },
+  {
+    "outputFile": "StructureDefinition-hitc-canonical-patient.json",
+    "fshName": "HITCCanonicalPatient",
+    "fshType": "Profile",
+    "fshFile": "04_profiles_admin.fsh",
+    "startLine": 1,
+    "endLine": 16
+  },
+  {
+    "outputFile": "StructureDefinition-hitc-canonical-practitioner-role.json",
+    "fshName": "HITCCanonicalPractitionerRole",
+    "fshType": "Profile",
+    "fshFile": "04_profiles_admin.fsh",
+    "startLine": 40,
+    "endLine": 52
+  },
+  {
+    "outputFile": "StructureDefinition-hitc-canonical-practitioner.json",
+    "fshName": "HITCCanonicalPractitioner",
+    "fshType": "Profile",
+    "fshFile": "04_profiles_admin.fsh",
+    "startLine": 30,
+    "endLine": 38
+  },
+  {
+    "outputFile": "StructureDefinition-hitc-canonical-procedure.json",
+    "fshName": "HITCCanonicalProcedure",
+    "fshType": "Profile",
+    "fshFile": "05_profiles_clinical.fsh",
+    "startLine": 81,
+    "endLine": 91
+  },
+  {
+    "outputFile": "StructureDefinition-hitc-canonical-provenance.json",
+    "fshName": "HITCCanonicalProvenance",
+    "fshType": "Profile",
+    "fshFile": "06_profiles_governance.fsh",
+    "startLine": 17,
+    "endLine": 29
+  },
+  {
+    "outputFile": "StructureDefinition-hitc-canonical-questionnaire-response.json",
+    "fshName": "HITCCanonicalQuestionnaireResponse",
+    "fshType": "Profile",
+    "fshFile": "05_profiles_clinical.fsh",
+    "startLine": 299,
+    "endLine": 311
+  },
+  {
+    "outputFile": "StructureDefinition-hitc-canonical-related-person.json",
+    "fshName": "HITCCanonicalRelatedPerson",
+    "fshType": "Profile",
+    "fshFile": "04_profiles_admin.fsh",
+    "startLine": 18,
+    "endLine": 28
+  },
+  {
+    "outputFile": "StructureDefinition-hitc-canonical-service-request.json",
+    "fshName": "HITCCanonicalServiceRequest",
+    "fshType": "Profile",
+    "fshFile": "05_profiles_clinical.fsh",
+    "startLine": 171,
+    "endLine": 182
+  },
+  {
+    "outputFile": "StructureDefinition-hitc-canonical-specimen.json",
+    "fshName": "HITCCanonicalSpecimen",
+    "fshType": "Profile",
+    "fshFile": "05_profiles_clinical.fsh",
+    "startLine": 184,
+    "endLine": 196
+  },
+  {
+    "outputFile": "StructureDefinition-hitc-exchange-bundle.json",
+    "fshName": "HITCExchangeBundle",
+    "fshType": "Profile",
+    "fshFile": "06_profiles_governance.fsh",
+    "startLine": 43,
+    "endLine": 55
+  },
+  {
+    "outputFile": "StructureDefinition-hitc-laboratory-observation.json",
+    "fshName": "HITCLaboratoryObservation",
+    "fshType": "Profile",
+    "fshFile": "05_profiles_clinical.fsh",
+    "startLine": 15,
+    "endLine": 23
+  },
+  {
+    "outputFile": "StructureDefinition-hitc-mapping-confidence.json",
+    "fshName": "HITCMappingConfidence",
+    "fshType": "Extension",
+    "fshFile": "03_extensions.fsh",
+    "startLine": 33,
+    "endLine": 38
+  },
+  {
+    "outputFile": "StructureDefinition-hitc-mapping-reviewer.json",
+    "fshName": "HITCMappingReviewer",
+    "fshType": "Extension",
+    "fshFile": "03_extensions.fsh",
+    "startLine": 40,
+    "endLine": 45
+  },
+  {
+    "outputFile": "StructureDefinition-hitc-mapping-strategy.json",
+    "fshName": "HITCMappingStrategy",
+    "fshType": "Extension",
+    "fshFile": "03_extensions.fsh",
+    "startLine": 25,
+    "endLine": 31
+  },
+  {
+    "outputFile": "StructureDefinition-hitc-merkle-root.json",
+    "fshName": "HITCMerkleRoot",
+    "fshType": "Extension",
+    "fshFile": "03_extensions.fsh",
+    "startLine": 63,
+    "endLine": 68
+  },
+  {
+    "outputFile": "StructureDefinition-hitc-original-code.json",
+    "fshName": "HITCOriginalCode",
+    "fshType": "Extension",
+    "fshFile": "03_extensions.fsh",
+    "startLine": 18,
+    "endLine": 23
+  },
+  {
+    "outputFile": "StructureDefinition-hitc-quality-denominator.json",
+    "fshName": "HITCQualityDenominator",
+    "fshType": "Extension",
+    "fshFile": "03_extensions.fsh",
+    "startLine": 77,
+    "endLine": 82
+  },
+  {
+    "outputFile": "StructureDefinition-hitc-quality-metric-observation.json",
+    "fshName": "HITCQualityMetricObservation",
+    "fshType": "Profile",
+    "fshFile": "05_profiles_clinical.fsh",
+    "startLine": 25,
+    "endLine": 47
+  },
+  {
+    "outputFile": "StructureDefinition-hitc-quality-numerator.json",
+    "fshName": "HITCQualityNumerator",
+    "fshType": "Extension",
+    "fshFile": "03_extensions.fsh",
+    "startLine": 70,
+    "endLine": 75
+  },
+  {
+    "outputFile": "StructureDefinition-hitc-source-format.json",
+    "fshName": "HITCSourceFormat",
+    "fshType": "Extension",
+    "fshFile": "03_extensions.fsh",
+    "startLine": 10,
+    "endLine": 16
+  },
+  {
+    "outputFile": "StructureDefinition-hitc-source-system.json",
+    "fshName": "HITCSourceSystem",
+    "fshType": "Extension",
+    "fshFile": "03_extensions.fsh",
+    "startLine": 1,
+    "endLine": 8
+  },
+  {
+    "outputFile": "StructureDefinition-hitc-transformation-step.json",
+    "fshName": "HITCTransformationStep",
+    "fshType": "Extension",
+    "fshFile": "03_extensions.fsh",
+    "startLine": 47,
+    "endLine": 53
+  },
+  {
+    "outputFile": "StructureDefinition-hitc-validation-stage.json",
+    "fshName": "HITCValidationStage",
+    "fshType": "Extension",
+    "fshFile": "03_extensions.fsh",
+    "startLine": 55,
+    "endLine": 61
+  },
+  {
+    "outputFile": "ValueSet-hitc-mapping-strategy.json",
+    "fshName": "HITCMappingStrategyVS",
+    "fshType": "ValueSet",
+    "fshFile": "02_terminology.fsh",
+    "startLine": 32,
+    "endLine": 35
+  },
+  {
+    "outputFile": "ValueSet-hitc-observation-category.json",
+    "fshName": "HITCObservationCategoryVS",
+    "fshType": "ValueSet",
+    "fshFile": "02_terminology.fsh",
+    "startLine": 96,
+    "endLine": 99
+  },
+  {
+    "outputFile": "ValueSet-hitc-quality-metric.json",
+    "fshName": "HITCQualityMetricVS",
+    "fshType": "ValueSet",
+    "fshFile": "02_terminology.fsh",
+    "startLine": 14,
+    "endLine": 18
+  },
+  {
+    "outputFile": "ValueSet-hitc-source-format.json",
+    "fshName": "HITCSourceFormatVS",
+    "fshType": "ValueSet",
+    "fshFile": "02_terminology.fsh",
+    "startLine": 64,
+    "endLine": 67
+  },
+  {
+    "outputFile": "ValueSet-hitc-supported-terminology.json",
+    "fshName": "HITCSupportedTerminologyVS",
+    "fshType": "ValueSet",
+    "fshFile": "02_terminology.fsh",
+    "startLine": 120,
+    "endLine": 123
+  },
+  {
+    "outputFile": "ValueSet-hitc-transformation-activity.json",
+    "fshName": "HITCTransformationActivityVS",
+    "fshType": "ValueSet",
+    "fshFile": "02_terminology.fsh",
+    "startLine": 83,
+    "endLine": 86
+  },
+  {
+    "outputFile": "ValueSet-hitc-validation-stage.json",
+    "fshName": "HITCValidationStageVS",
+    "fshType": "ValueSet",
+    "fshFile": "02_terminology.fsh",
+    "startLine": 48,
+    "endLine": 51
+  }
+]
