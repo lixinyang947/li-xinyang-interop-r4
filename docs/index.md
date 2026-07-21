@@ -39,7 +39,15 @@ This repository provides machine-consumable HL7 FHIR R4 artifacts, including:
 Detailed artifact catalog:
 
 [View FHIR Artifact Catalog](artifacts.md)
+---
 
+## Documentation
+
+Explore the technical documentation:
+
+- [FHIR Artifact Catalog](artifacts.md)
+- [FHIR Mapping Framework](mappings.md)
+- [Validation and Data Quality Framework](validation.md)
 
 ## Repository
 
