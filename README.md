@@ -1,5 +1,21 @@
+
 # Li Xinyang FHIR-Native Interoperability and Data-Quality Framework — FHIR R4 Draft IG
 ## Overview
+## Online Documentation
+
+Public documentation site:
+
+https://lixinyang947.github.io/li-xinyang-interop-r4/
+
+## Release
+
+Latest version:
+
+v0.1.0
+
+GitHub Release:
+
+https://github.com/lixinyang947/li-xinyang-interop-r4/releases/tag/v0.1.0
 
 This repository presents the FHIR R4 implementation of the FHIR-Native Clinical Data Interoperability and Data-Quality Framework developed by Xinyang Li.
 
