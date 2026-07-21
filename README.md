@@ -1,11 +1,98 @@
 # Li Xinyang FHIR-Native Interoperability and Data-Quality Framework — FHIR R4 Draft IG
+## Overview
 
+This repository presents the FHIR R4 implementation of the FHIR-Native Clinical Data Interoperability and Data-Quality Framework developed by Xinyang Li.
+
+The framework transforms a methodological interoperability approach into machine-consumable HL7 FHIR R4 artifacts, including executable StructureDefinitions, ImplementationGuide resources, ConceptMaps, StructureMaps, terminology resources, and validation specifications.
+
+This repository represents a draft technical specification and reference implementation package.
 **Version:** 0.1.0  
 **Date:** 2026-07-21  
 **FHIR version:** R4 / 4.0.1  
 **Status:** Draft and experimental  
 **Methodology author:** Xinyang Li
+---
 
+## Original Methodological Contribution
+
+This repository formalizes a FHIR-native clinical data interoperability methodology into executable HL7 FHIR R4 artifacts.
+
+The framework addresses cross-institutional clinical data interoperability through six technical components:
+
+1. Canonical FHIR R4 Data Model
+2. Two-Phase Mapping Pipeline
+3. Terminology Reconciliation Framework
+4. Validation and Data Quality Pipeline
+5. Provenance and Lineage Tracking
+6. Federated Query Workflow
+
+The methodology separates structural transformation from semantic reconciliation using HL7 FHIR StructureMap and ConceptMap artifacts.
+
+---
+
+## Technical Architecture
+
+Clinical Data Sources:
+
+HL7 v2 / C-CDA / Existing FHIR Systems
+
+---
+
+## FHIR Artifacts Included
+
+| Artifact Type | Quantity |
+|---|---:|
+| ImplementationGuide | 1 |
+| StructureDefinition | 55 |
+| FHIR Profiles | 35 |
+| Extension Definitions | 11 |
+| ConceptMaps | 11 |
+| StructureMaps | 12 |
+| CodeSystems | 7 |
+| ValueSets | 7 |
+
+---
+
+## Validation Status
+
+FHIR Version:
+
+FHIR R4 (4.0.1)
+
+Current Release:
+
+v0.1.0
+
+Validation Status:
+
+- StructureDefinition generation completed
+- FHIR package assembled
+- Artifact consistency checks completed
+- Offline validation completed
+
+Current maturity:
+
+Draft / Experimental Technical Specification
+
+---
+
+## Repository Structure
+
+---
+
+## Citation
+
+Xinyang Li.
+
+FHIR-Native Clinical Data Interoperability Framework.
+
+FHIR R4 Implementation Guide v0.1.0.
+
+GitHub Release, 2026.
+
+Repository:
+
+https://github.com/lixinyang947/li-xinyang-interop-r4
 This package translates the two supplied methodology narratives into machine-consumable FHIR R4 artifacts. It is a technical specification and concept-of-concept package, not evidence of a completed production deployment.
 
 ## Included artifacts
