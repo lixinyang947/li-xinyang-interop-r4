@@ -48,7 +48,7 @@ Explore the technical documentation:
 - [FHIR Artifact Catalog](artifacts.md)
 - [FHIR Mapping Framework](mappings.md)
 - [Validation and Data Quality Framework](validation.md)
-
+- [Provenance and Data Lineage Framework](provenance.md)
 ## Repository
 
 Source repository:
