@@ -1,0 +1,39 @@
+cff-version: 1.2.0
+message: "If you use this repository, please cite it as below."
+type: software
+
+title: "FHIR-Native Clinical Data Interoperability and Data-Quality Framework"
+
+authors:
+  - family-names: "Li"
+    given-names: "Xinyang"
+
+version: "0.1.0"
+
+date-released: "2026-07-21"
+
+repository-code: "https://github.com/lixinyang947/li-xinyang-interop-r4"
+
+url: "https://github.com/lixinyang947/li-xinyang-interop-r4"
+
+abstract: >
+  This repository provides a FHIR R4 implementation of a
+  FHIR-native clinical data interoperability and data-quality framework.
+  The repository formalizes the methodology into machine-consumable
+  HL7 FHIR R4 artifacts including StructureDefinition profiles,
+  ImplementationGuide resources, ConceptMaps, StructureMaps,
+  terminology resources, and validation specifications.
+
+keywords:
+  - FHIR
+  - HL7
+  - FHIR R4
+  - Health Informatics
+  - Clinical Data Interoperability
+  - Data Quality
+  - StructureDefinition
+  - ImplementationGuide
+  - ConceptMap
+  - StructureMap
+
+license: "Apache-2.0"
