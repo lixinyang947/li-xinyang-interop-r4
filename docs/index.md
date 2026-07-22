@@ -22,6 +22,46 @@ The framework addresses cross-institutional clinical data exchange through:
 ---
 ---
 
+## Framework Architecture
+
+The FHIR-Native Clinical Data Interoperability Framework follows a standards-based clinical data transformation and governance pipeline.
+
+```text
++--------------------------------+
+| Clinical Data Sources          |
+| HL7 v2 / C-CDA / EHR Systems   |
++--------------------------------+
+                |
+                v
++--------------------------------+
+| FHIR R4 Canonical Data Model   |
+| StructureDefinition Profiles   |
++--------------------------------+
+                |
+                v
++--------------------------------+
+| Structural Transformation      |
+| FHIR StructureMap              |
++--------------------------------+
+                |
+                v
++--------------------------------+
+| Semantic Reconciliation        |
+| ConceptMap / Terminology       |
++--------------------------------+
+                |
+                v
++--------------------------------+
+| Validation & Data Quality      |
+| Schema / Reference / Terminology|
++--------------------------------+
+                |
+                v
++--------------------------------+
+| Provenance & Lineage Tracking  |
+| FHIR Provenance / AuditEvent   |
++--------------------------------+
+
 ## FHIR Artifacts
 
 This repository provides machine-consumable HL7 FHIR R4 artifacts, including:
